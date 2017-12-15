@@ -1,0 +1,20 @@
+permalink: /:year/:month/:day/:title.html   #博文的固定链接
+paginate: 10                                #分页时每页博文数量
+paginate_path: "page/:num"
+author:                                     #自定义常量
+  name: Nuxio
+  email: nuxio2015@gmail.com
+  link: https://mafeewu.com/
+  github: nuxio
+title: 日常
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+sass:
+  sass_dir: _sass
+  style: compressed
+feed:
+  path: atom.xml
