@@ -1,0 +1,25 @@
+{
+  "short_name": "Nuxio's Blog",
+  "name": "Nuxio's daily blog",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#2196F3",
+  "display": "standalone",
+  "theme_color": "#2196F3",
+  "start_url": "/"
+}
